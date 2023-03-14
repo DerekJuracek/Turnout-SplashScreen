@@ -4,6 +4,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#splash-title {
+  font: 14px;
+}
   /* Splash screen styles */
   #splash-screen {
     position: absolute;

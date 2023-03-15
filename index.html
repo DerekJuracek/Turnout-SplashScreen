@@ -44,10 +44,10 @@
     <div id="splash-screen">
       <div id="splash-content">
         <h4>Welcome to the Voter Turnout Project by Civic Nebraska!</h4>
-        <p id="splash-text">Click the button below to explore the map. Data is taken from the Census Bureau's American Community Survey 2021 1-year Estimates. 
+        <p id="splash-text">Click the button below to start exploring the map! Data is taken from the Census Bureau's American Community Survey 2021 1-year Estimate. 
           Maps show voter turnout in Nebraska by Census Tracts, Zip-Codes and Counties. You can search by common city, county or location in the 
-          search bar and then zoom in to view the specific Census Tract, Zip-Code and County. If you select an area within your chosen geographic area, you will
-          be able to view a pop-up with more information. </p>
+          search bar and then zoom in to view the specific Census Tract, Zip-Code and County. When you select an area within your chosen geographic area, you will
+          a pop-up will appear with more information. </p>
         <button id="splash-close">Close Splash Screen</button>
       </div>
     </div>
@@ -59,7 +59,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            Voter Turnout Maps
           </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu scrollable-dropdown" aria-labelledby="navbarDropdownMenuLink">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="exampleRadios" id="clexfr7cx000h01mzika7ykfc" value="option1" checked>
             <label class="form-check-label" for="exampleRadios1">
@@ -78,12 +78,18 @@
             Voter Turnout by County
           </label>
         </div>
+        <hr class="custom-line">
+           <!-- New label element -->
+      <label class="form-check-label center-label" for="clexfr7cx000h01mzika7ykfc" id="dropdown-label">
+        <b>Demographic Maps</b> 
+      </label><hr class="custom-line">
       <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="clewoj4kq000501nzxujmb2ua" value="option3">
           <label class="form-check-label" for="exampleRadios2">
             Median Income
           </label> 
         </div>
+     
      <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="clewnf117001a01pfv1micysu" value="option5">
           <label class="form-check-label" for="exampleRadios2">
@@ -143,7 +149,8 @@
           <label class="form-check-label" for="exampleRadios2">
             American Indian Householders
           </label> 
-        </div>
+        
+      </div>
     </nav>
     <div id="legend-master">
       <div id="voter-legend" class="legend1">

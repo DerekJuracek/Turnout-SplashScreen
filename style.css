@@ -52,6 +52,25 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle {
   padding-right: 24px;
 }
 
+.scrollable-dropdown {
+  max-height: 700px; /* Set the maximum height for the dropdown menu */
+  overflow-y: auto; /* Enable vertical scrolling when the content overflows */
+}
+.center-label {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  
+}
+
+.custom-line {
+  border-top: 1px solid #ccc; /* Line color and thickness */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 .mapboxgl-popup {
   max-width: 500px;
   font: 12px/20px "Open Sans", sans-serif;
